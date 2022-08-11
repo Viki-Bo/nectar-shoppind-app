@@ -9,7 +9,7 @@
       <p class='font-dongle text-lg -mb-4 tracking-normal'>Nectar</p>
       <p class='font-montserrat tracking-widest text-xs'> online groceriet</p>
     </div>
-  </div>
+    </div>
   </div>
 </template>
 
