@@ -8,6 +8,8 @@
 import CLocation from '../components/cLocation.component.vue';
 export default {
   name: "vHomeScreenView",
-  components: { CLocation },
+  components: {
+    CLocation,
+  },
 }
 </script>
