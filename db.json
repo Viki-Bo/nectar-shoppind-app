@@ -5,5 +5,25 @@
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { "name": "typicode" },
+  "ExclusiveOffer": [
+    {
+    "id": 1,
+    "name": "Organic Bananas",
+    "price": "4.99",
+    "amount": "7pcs, Price",
+    "description":"Organic bananas are one of the most widespread and versatile fruits in the world. Although some believe that they contribute to weight gain, there is little actual evidence to support this.",
+    "src": "../assets/images/banana.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Organic potato",
+      "price": "4.99",
+      "amount": "7pcs, Price",
+      "description":"Organic bananas are one of the most widespread and versatile fruits in the world. Although some believe that they contribute to weight gain, there is little actual evidence to support this.",
+      "src": "../assets/images/banana.jpg"
+    }
+  ]
 }
+
+

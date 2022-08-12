@@ -1,14 +1,22 @@
-import { createStore } from 'vuex'
+import { createStore } from "vuex";
+import axios from "axios"
 
-const store = createStore({
-  state: {
-      count: 0
+const store = createStore( {
+  state() {
+    return {
+      ExclusiveOfferData: [],
+    };
   },
   mutations: {
-    increment (state) {
-      state.count++
-    }
-  }
-})
+    setFetchData(state, payload) {
+      state.ExclusiveOfferData = payload;
+    },
+  },
+  actions: {
+    async fetchData({ commit }, payload) {
+      const fetchData = await axios.get("http://localhost:3000/ExclusiveOffer");
+      commit("setFetchData", fetchData.data);
+    },
+}});
 
-export default store
+export default store;
