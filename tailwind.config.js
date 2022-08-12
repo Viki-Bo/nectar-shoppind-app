@@ -11,11 +11,16 @@ module.exports = {
         montserrat: ['Montserrat','sans-serif' ],
       },
       fontSize: {
-        lg: ['58px', '58px'],
+        lg: ['3.75rem', '3.75rem'],
       },
       animation:{
-        "ping-slow": " ping 3s ease-in-out infinite"
-      }
+        "ping-slow": " ping 3s "
+      },
+      keyframes: {
+        ping:{
+          opacity: 1,
+        }
+      },
     },
   },
   plugins: [],
