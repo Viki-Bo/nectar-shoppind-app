@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'primary-green': '#53B175',
+        'light-gray': '#F2F3F2',
       },
       fontFamily: {
         dongle: ['Dongle', 'sans-serif'],
